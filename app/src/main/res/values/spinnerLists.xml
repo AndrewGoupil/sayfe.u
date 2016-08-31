@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="consentSpinner">
+        <item>Basics of Consent\n3 LESSONS</item>
+        <item>1. Consent is Affirmative</item>
+        <item>2. Legality and Consent</item>
+        <item>3. Consent is Freely Given</item>
+    </string-array>
+</resources>

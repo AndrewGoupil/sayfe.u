@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:id="@+id/headerLinearLay"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/fillerTextView"
+        android:text="                                                                                                                     "
+        android:paddingLeft="4dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/avatarImageView"
+        android:background="#DEDEDE"
+        android:layout_toRightOf="@+id/numTextView"
+        android:layout_toEndOf="@+id/numTextView"/>
+
+    <TextView
+        android:id="@+id/headingTextView"
+        android:text="This is Sample Text."
+        android:paddingLeft="4dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/avatarImageView"
+        android:background="#DEDEDE"
+        android:layout_toRightOf="@+id/numTextView"
+        android:layout_toEndOf="@+id/numTextView"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/avatarImageView"
+        android:src="@drawable/not_done"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="#DEDEDE"
+        android:foregroundGravity="center_vertical"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0."
+        android:id="@+id/numTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/headingTextView"
+        android:background="#DEDEDE"
+        android:textColor="#FF3F66"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
+
+</RelativeLayout>

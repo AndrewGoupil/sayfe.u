@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="575dp"
+        android:orientation="vertical"
+        android:layout_margin="3dp"
+        android:background="@android:color/background_light"
+        android:layout_weight="0.91">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/support_icon"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consensual"
+            android:textColor="#FF3F66"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="40sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Consent: even though she is in pain, Ramona is an active participant and wants to have sex with Sheelah. This is a boundary only she can set for herself; it is not Sheelah’s job to tell Ramona what she can’t do.\n\n"
+            android:id="@+id/answerText"
+            android:textColor="#000000"
+            android:padding="20dp"/>
+
+        <Button
+            android:id="@+id/dismiss"
+            android:layout_width="265dp"
+            android:layout_height="40dp"
+            android:text="Dismiss"
+            android:textColor="#FFFFFFFF"
+            android:background="#A12C5A"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
