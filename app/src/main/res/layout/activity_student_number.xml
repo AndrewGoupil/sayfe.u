@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/studentNumberEditText"
         android:layout_marginTop="49dp"
         android:layout_below="@+id/textView12"
         android:layout_alignLeft="@+id/textView12"
@@ -52,5 +52,17 @@
         android:text="I&apos;m Done"
         android:id="@+id/button3"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="doneClick"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#C73F66"
+        android:textStyle="bold"
+        android:text="Medium Text"
+        android:id="@+id/scoreTextView"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
